@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>KeePass Sync — privacy policy</title>
+<style>body{max-width:46rem;margin:4rem auto;padding:0 1.3rem;font:18px/1.7 system-ui,sans-serif;color:#22303a;background:#fafaf8}h1,h2{line-height:1.3}a{color:#145c88}footer{margin-top:3rem;border-top:1px solid #ddd;padding-top:1rem;font-size:.9em}</style>
+<main>
+<p><a href="index.html">KeePass Sync</a></p>
+<h1>Privacy policy</h1>
+<p>Effective date: 5 November 2026. This policy describes a personal synchronization configuration operated by its owner.</p>
+<h2>Data accessed and purpose</h2>
+<p>The local synchronizer accesses encrypted KeePass database files and associated Google Drive metadata, including file names, identifiers, checksums and modification information. It uses this data only to synchronize the owner's database, detect conflicts and preserve recoverable encrypted versions.</p>
+<p>The Google OAuth permission grants read and write access to Google Drive. The installed configuration limits routine synchronization to the selected database and synchronization control files; the OAuth permission itself is broader than that configured file selection.</p>
+<h2>Storage and transfer</h2>
+<p>The encrypted database is stored on the owner's computer, in the owner's Google Drive and in compatible applications on the owner's devices. Encrypted version backups and synchronization status are stored locally. OAuth client credentials and refresh tokens are stored in a file restricted to the owner's local user account.</p>
+<p>The synchronizer does not decrypt database entries and does not collect the master password. Google processes API requests under the owner's authorization. Compatible password applications manage unlocking on the owner's devices.</p>
+<h2>Sharing and retention</h2>
+<p>The configuration does not sell data, use it for advertising, or send database content to analytics services. It transfers the selected encrypted files between the owner's devices and Google Drive. Local backups remain until the owner removes them; Google Drive may retain file revisions and deleted items under its own settings.</p>
+<h2>Owner control</h2>
+<p>The owner can stop synchronization, remove local backups, manage files in Google Drive and revoke the application's access in Google Account settings. Revoking access does not itself delete existing files or backups.</p>
+<h2>This information website</h2>
+<p>This static website does not receive OAuth tokens, passwords or database content. It contains no analytics scripts, forms or application login. Its hosting provider may process ordinary website access logs.</p>
+<h2>Contact</h2>
+<p>Use the support email shown on the KeePass Sync Google OAuth consent screen.</p>
+</main>
+<footer>For the owner's personal KeePass Sync configuration.</footer>
+</html>
